@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Global styling */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color: #293241;
+}
+
+button, input[type="text"] {
+  padding: 5px;
+}
+
+input[type="text"]{
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+#shopping-list-item {
+  width: 250px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* List */
+
+.shopping-list{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.shopping-list > li {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  border: 1px solid #EDEDE8;
+  padding: 20px;
+}
+
+.shopping-item {
+  display: block;
+  color: #999;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.shopping-item-checked {
+  text-decoration: line-through;
+}
+
+/* Buttons */
+
+.submit-btn,
+.item-toggle-btn,
+.item-delete-btn{
+  width: 100px;
+  height: 35px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 600;
+  color: #fff;
+}
+
+.submit-btn{
+  background-color: #3D5A80;
+}
+
+.item-toggle-btn{
+  background-color: #79BE4B;
+}
+.item-delete-btn{
+  margin-left: 10px;
+  background-color: #DD0703;
+}
